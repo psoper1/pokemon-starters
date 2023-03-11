@@ -10,7 +10,7 @@ function Charmander({ data }) {
                         <table className="table">
                             <thead>
                                 <tr>
-                                    <th scope="col"><img className="rounded mx-auto d-block" src={charmander} alt="charmander"/></th>
+                                    <th scope="col"><img className="rounded mx-auto d-block" src={charmander} alt="charmander" /></th>
                                 </tr>
                             </thead>
                             <tbody>

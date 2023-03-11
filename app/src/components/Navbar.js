@@ -1,6 +1,6 @@
 import pokemon from "../imgs/pokemon-logo.png"
 
-function Navbar( { setPage }) {
+function Navbar({ setPage }) {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -12,13 +12,13 @@ function Navbar( { setPage }) {
                     <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                            <button id="navbuttons" onClick={() => setPage('splash')} type="button" className="btn btn-dark">Home</button>
+                                <button id="navbuttons" onClick={() => setPage('splash')} type="button" className="btn btn-dark">Home</button>
                             </li>
                             <li className="nav-item">
-                            <button id="navbuttons" onClick={() => setPage('about')} type="button" className="btn btn-dark">About</button>
+                                <button id="navbuttons" onClick={() => setPage('about')} type="button" className="btn btn-dark">About</button>
                             </li>
                             <li className="nav-item">
-                            <button id="navbuttons" onClick={() => setPage('pokelist')} type="button" className="btn btn-dark">PokeList</button>
+                                <button id="navbuttons" onClick={() => setPage('pokelist')} type="button" className="btn btn-dark">PokeList</button>
                             </li>
                         </ul>
                     </div>
